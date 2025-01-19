@@ -1,7 +1,7 @@
 {
   "name": "special-hours-app",
   "private": true,
-  "homepage": "https://swarajp8020.github.io/SupplyHouse",
+  "homepage": "https://swarajp8020.github.io/SupplyHouse/",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
