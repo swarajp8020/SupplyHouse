@@ -2,10 +2,10 @@ import React from "react";
 
 const SpecialHours = () => {
   const specialHours = {
-    mondayToThursday: { open: "9:00am", close: "9:00pm" },
-    friday: { open: "8:00am", close: "8:00pm" },
-    saturday: { open: "8:00am", close: "8:00pm" },
-    sunday: { open: "8:00am", close: "8:00pm" },
+    mondayToThursday: { open: "8:00am", close: "7:45pm" },
+    friday: { open: "9:00am", close: "7:45pm" },
+    saturday: { open: "9:00am", close: "5:45pm" },
+    sunday: { open: "9:00am", close: "5:45pm" },
   };
 
   return (

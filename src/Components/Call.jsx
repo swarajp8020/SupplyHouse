@@ -16,7 +16,7 @@ const Call = () => {
             888-551-7600
           </a>
         </div>
-        <p className="text-sm text-gray-600">Available 8am</p>
+        <p className="text-sm text-gray-600 before:content-['•'] before:mr-2 before:text-2xl before:text-black">Available 8am</p>
       </div>
 
       {/* Text Section */}
@@ -41,7 +41,7 @@ const Call = () => {
             888-551-7600
           </a>
         </div>
-        <p className="text-md text-gray-600">Available 8am</p>
+        <p className="text-md text-gray-600 before:content-['•'] before:mr-2 before:text-2xl before:text-black">Available 8am</p>
       </div>
 
       <div className="flex flex-col items-center p-2">
@@ -49,7 +49,7 @@ const Call = () => {
           <MdOutlineMail size={24} />
           <span className="font-bold text-blue-600 text-xl">Email</span>
         </div>
-        <p className="text-md text-gray-600">Response by Sun</p>
+        <p className="text-md text-gray-600 before:content-['•'] before:mr-2 before:text-3xl before:text-green-600">Response by Sun</p>
       </div>
     </div>
   );
